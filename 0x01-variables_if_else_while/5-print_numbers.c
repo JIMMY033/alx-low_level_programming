@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	char c = 'a';
+	int d = 48;
 
-	while (c <= 'z')
+	while (d < 58)
 	{
-		putchar(c);
-		c++;
+		putchar(d);
+		d++;
 	}
 	putchar('\n');
 
 	return (0);
-}}
+}
